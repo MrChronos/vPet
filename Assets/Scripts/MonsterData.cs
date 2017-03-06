@@ -73,13 +73,25 @@ namespace MonsterNamespace
             public Stage stage;
             public Attribute attribute;
             public Type type;
-            public Element element_01, element_02, element_03, element_04;
-            //public List<Element> elements = new List<Element>();
+            // public Element element_01, element_02, element_03, element_04;
+            public List<Element> elements = new List<Element>();
 
             public ActiveTimes activeTimes;
             public int baseWeight;
             public MonsterName digivolveTo_01, digivolveTo_02, digivolveTo_03, digivolveTo_04, digivolveTo_05;
-            public Sprite partnerSprite; 
+            public Sprite partnerSprite;
+
+            public Monster(monsterName, stage, attribute, type, elements, activeTimes, baseWeight, partnerSprite)
+            {
+                this.monsterName = monsterName;
+                this.state = stage;
+                this.attribute = attribute;
+                this.type = type;
+                this.elements = elements;
+                this.activeTimes = activeTimes;
+                this.baseWeight = baseWeight;
+                this.partnerSprite = partnerSprite;
+            }
         }
 
         void Start()
@@ -375,15 +387,16 @@ namespace MonsterNamespace
             Monster m = new Monster();
             if (currentMonster == MonsterName.Egg)
             {
-                m.monsterName = currentMonster;
-                m.stage = Stage.Fresh;
-                m.attribute = Attribute.Vaccine;
-                m.type = Type.Dinosaur;
-                m.element_01 = Element.Fire;
-                m.activeTimes = ActiveTimes.Egg;
-                m.baseWeight = 1;
+                m = Monster(currentMonster, Stage.Fresh, Attribute.Vaccine, Type.Dinosaur, new List(Element.Fire), ActiveTimes.Egg, 1, Egg)
+                // m.monsterName = currentMonster;
+                // m.stage = Stage.Fresh;
+                // m.attribute = Attribute.Vaccine;
+                // m.type = Type.Dinosaur;
+                // m.element_01 = Element.Fire;
+                // m.activeTimes = ActiveTimes.Egg;
+                // m.baseWeight = 1;
                 m.digivolveTo_01 = MonsterName.Botamon;
-                m.partnerSprite = Egg;
+                // m.partnerSprite = Egg;
             }
 
             if (currentMonster == MonsterName.Botamon)
