@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 2363748e40331fc44910cdf3f21c301b
+timeCreated: 1488797877
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Botamon: {fileID: 21300000, guid: 85020ac7cca491c42b9304994618ceb3, type: 3}
+  - Koromon: {fileID: 21300000, guid: 0908eab76405d424d8281aac436c5be7, type: 3}
+  - Agumon: {fileID: 21300000, guid: efb67235554f1c649b305ae92128f8c0, type: 3}
+  - Greymon: {fileID: 21300000, guid: e6b59c287c2f57944ae5c79b889b9a1c, type: 3}
+  - Tyrannomon: {fileID: 21300000, guid: c7f7053bc525cab4abd1f6f29bb77da5, type: 3}
+  - Cyclonemon: {fileID: 21300000, guid: 3151628ae01580845a45952fad19068d, type: 3}
+  - Flarerizamon: {fileID: 21300000, guid: 114c0182c62b71241be52d7afc5db4fc, type: 3}
+  - Metalgreymon: {fileID: 21300000, guid: 92dcaccdf271333409d73fe87da238ff, type: 3}
+  - Mastertyrannomon: {fileID: 21300000, guid: 06aca4af15657db4794e690383c9f1b6, type: 3}
+  - Metaltyrannomon: {fileID: 21300000, guid: 7accb5fd295b7424f8be81dbcc522409, type: 3}
+  - Extyrannomon: {fileID: 21300000, guid: faab4911ab14aee4ab349ea9e1531997, type: 3}
+  - Datamon: {fileID: 21300000, guid: 3f0df5d1a1343894b868941b26774227, type: 3}
+  - Megadramon: {fileID: 21300000, guid: 88ed8e180ed3c2a4683965e8b94bfcaa, type: 3}
+  - Gigadramon: {fileID: 21300000, guid: 9cd87dbb416a2ca4c8ee8279e66efc33, type: 3}
+  - Gabumon: {fileID: 21300000, guid: fd30f822f882e9846b1ebafe7f5ff6f4, type: 3}
+  - Garurumon: {fileID: 21300000, guid: 6d796c01aebef4a428c104f497db3496, type: 3}
+  - Drimogemon: {fileID: 21300000, guid: f22de4415d9784e4fb50e7e9b06e16a3, type: 3}
+  - Monochromon: {fileID: 21300000, guid: 072a96bf61991e84ba122964d2500d1a, type: 3}
+  - Weregarurumon: {fileID: 21300000, guid: 3fae9fc3360553d48a44294c1f447770, type: 3}
+  - Mammothmon: {fileID: 21300000, guid: 1b87fc3a60c54724b964ecd30dfbdec0, type: 3}
+  - Giromon: {fileID: 21300000, guid: f1be4d5b4876c5949b76b758b1cd5c32, type: 3}
+  - Triceramon: {fileID: 21300000, guid: f91f7f59376e6ea43bee15930d8ef7ca, type: 3}
+  - Numemon: {fileID: 21300000, guid: 8b23bf152a8180d44a467b0bc030d772, type: 3}
+  - Sukamon: {fileID: 21300000, guid: 63e9d578a4587254184f5877f72a5702, type: 3}
+  - player: {instanceID: 0}
+  - playerData: {instanceID: 0}
+  - timeClock: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
