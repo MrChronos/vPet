@@ -111,6 +111,8 @@ namespace MonsterNamespace
                     timeOfBirth = hour;
                     timeOfHatch = (timeOfBirth + 5);
                 }
+
+
             }
             #endregion
 
